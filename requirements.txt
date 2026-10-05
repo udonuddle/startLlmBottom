@@ -1,0 +1,7 @@
+# Week 1~2: 표준 라이브러리 + NumPy만
+numpy
+pytest
+matplotlib
+
+# Week 3~: PyTorch는 컴퓨터마다 GPU/CUDA 버전에 맞게 따로 설치
+#   https://pytorch.org/get-started/locally/

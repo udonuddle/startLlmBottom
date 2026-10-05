@@ -1,0 +1,39 @@
+# ── Python ──
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ── C / CUDA build ──
+*.o
+*.a
+*.so
+*.out
+build/
+
+# ── 데이터 / 가중치 (GitHub 파일 제한 100MB) ──
+# 큰 데이터셋은 data/ 에 두고 컴퓨터마다 따로 받기
+data/
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.tar.gz
+
+# ── 프로파일러 출력 ──
+*.nsys-rep
+*.ncu-rep
+*.qdrep
+*.sqlite
+*.pt.trace.json
+
+# ── 레퍼런스 repo는 로컬에만 clone (커밋 안 함) ──
+references/
+
+# ── 에디터 / OS ──
+.vscode/
+.idea/
+.DS_Store

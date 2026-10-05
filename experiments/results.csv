@@ -1,0 +1,1 @@
+run,date,machine,week,params,d_model,layers,heads,kv_heads,context,batch_size,train_loss,val_loss,vram_mb,tok_s,notes
